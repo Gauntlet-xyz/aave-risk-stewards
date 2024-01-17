@@ -8,7 +8,8 @@ remappings = [
 ]
 fs_permissions = [
   { access = "write", path = "./reports" },
-  { access = "write", path = "./calldata" }
+  { access = "write", path = "./calldata" },
+  { access = "write", path = "./metadata" }
 ]
 ffi = true
 
