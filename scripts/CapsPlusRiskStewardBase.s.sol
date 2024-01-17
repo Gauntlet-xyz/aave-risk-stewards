@@ -42,7 +42,6 @@ abstract contract CapsPlusRiskStewardBase is ProtocolV3TestBase {
     emit log_bytes(callDatas);
     vm.writeFile('./calldata/calldata_output.txt', vm.toString(callDatas));
 
-
     if (broadcastToSafe) {
       _sendToSafe(callDatas);
     }
