@@ -2,11 +2,11 @@
 
 ### Reserves altered
 
-#### wstETH ([0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0](https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0))
+#### PYUSD ([0x6c3ea9036406852006290770BEdFcAbA0e23A0e8](https://etherscan.io/address/0x6c3ea9036406852006290770BEdFcAbA0e23A0e8))
 
 | description | value before | value after |
 | --- | --- | --- |
-| supplyCap | 1,100,000 wstETH | 1,250,000 wstETH |
+| supplyCap | 10,000,000 PYUSD | 20,000,000 PYUSD |
 
 
 ## Raw diff
@@ -14,10 +14,10 @@
 ```json
 {
   "reserves": {
-    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+    "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8": {
       "supplyCap": {
-        "from": 1100000,
-        "to": 1250000
+        "from": 10000000,
+        "to": 20000000
       }
     }
   }
