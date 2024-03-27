@@ -6,7 +6,11 @@ out = 'out'
 libs = ['lib']
 remappings = [
 ]
-fs_permissions = [{ access = "write", path = "./reports" }]
+fs_permissions = [
+  { access = "write", path = "./reports" },
+  { access = "write", path = "./calldata" },
+  { access = "write", path = "./metadata" }
+]
 ffi = true
 
 [rpc_endpoints]
